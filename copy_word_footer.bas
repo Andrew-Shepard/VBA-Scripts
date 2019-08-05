@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "copy_word_footer"
     Set wb = Documents.Open(ActiveDocument.Path & "\FILENAME.docx")
         With ActiveDocument.Sections(1)
             .Footers(wdHeaderFooterPrimary).Range.Copy
