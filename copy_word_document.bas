@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "copy_word_document"
         Set wb = Documents.Open(ActiveDocument.Path & "\FILENAME.docx")
             Selection.WholeStory
             Selection.Copy
